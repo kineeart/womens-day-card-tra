@@ -16,6 +16,16 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <style>
+        .titleLetter {
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 32px;
+    color: #d62828;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    white-space: pre-line; /* Giữ xuống dòng mà vẫn căn giữa */
+}
+
 .contentLetter {
     font-family: 'Brush Script MT', cursive;
     font-size: 24px;
@@ -1125,6 +1135,8 @@
         let indexText = 0;
         let textLetter = document.querySelector('.textLetter h2');
         const textLetterH2 = "Gửi những người phụ nữ trong của sống của T";
+        let indexH2 = 0;
+let h2Element = document.querySelector('.titleLetter'); 
         let timoutTextLetter;
 
         function textCharLetter() {
