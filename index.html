@@ -16,15 +16,20 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <style>
-        .titleLetter {
-    text-align: center;
+.titleLetter {
+    display: flex;                  /* Dùng flex để dễ căn giữa */
+    justify-content: center;        /* Căn giữa ngang */
+    align-items: center;            /* Căn giữa dọc nếu cần (khi có chiều cao cụ thể) */
+    text-align: center;             /* Giữ căn giữa nội dung khi xuống dòng */
     font-family: 'Brush Script MT', cursive;
     font-size: 32px;
     color: #d62828;
-    margin-bottom: 20px;
+    margin: 20px auto;              /* Căn giữa theo khối */
     line-height: 1.4;
-    white-space: pre-line; /* Giữ xuống dòng mà vẫn căn giữa */
+    white-space: pre-line;          /* Giữ xuống dòng mà vẫn căn giữa */
+    width: 100%;
 }
+
 
 .contentLetter {
     font-family: 'Brush Script MT', cursive;
