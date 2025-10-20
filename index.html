@@ -16,8 +16,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <style>
-        .contentLetter {
-    white-space: pre-line; /* giữ xuống dòng */
+.contentLetter {
     font-family: 'Brush Script MT', cursive;
     font-size: 24px;
     line-height: 1.6;
@@ -26,11 +25,12 @@
 }
 
 .signature {
-    display: block;
     text-align: right;
     margin-top: 10px;
     font-style: italic;
+    display: block;
 }
+
         .container {
             display: flex;
             justify-content: center;
@@ -1149,7 +1149,6 @@
             }, 200)
         }
 
-        // chucs mung
 // --- Chúc mừng ---
 let indexTextContent = 0;
 let textLetterContent = document.querySelector('.contentLetter');
@@ -1166,18 +1165,22 @@ Chúc bạn có một ngày 20/10 thật ý nghĩa và tràn đầy niềm vui! 
 function textCharLetterContent() {
     if (indexTextContent < textLetterP.length) {
         // Hiển thị dần từng ký tự
-        textLetterContent.innerHTML += textLetterP[indexTextContent] === "\n" 
+        textLetterContent.innerHTML += 
+            textLetterP[indexTextContent] === "\n" 
             ? "<br>" 
             : textLetterP[indexTextContent];
+
         indexTextContent++;
         setTimeout(textCharLetterContent, 30); // tốc độ hiển thị chữ
+    } 
+    else {
+        // Khi gõ xong toàn bộ nội dung
+        console.log("Hoàn tất hiển thị lời chúc 🎉");
     }
 }
-            else {
-                clearInterval(timoutTextLetterContent)
 
-            }
-        }
+// Bắt đầu hiển thị
+textCharLetterContent();
         function funcTimeoutLetterContent() {
             indexTextContent = 0; // Reset indexTextContent
             textLetterContent.textContent = ''; // Xóa nội dung hiện tại của textLetter
