@@ -16,6 +16,21 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <style>
+        .contentLetter {
+    white-space: pre-line; /* giữ xuống dòng */
+    font-family: 'Brush Script MT', cursive;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #003049;
+    text-align: left;
+}
+
+.signature {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    font-style: italic;
+}
         .container {
             display: flex;
             justify-content: center;
@@ -1135,22 +1150,29 @@
         }
 
         // chucs mung
-        let indexTextContent = 0;
-        let textLetterContent = document.querySelector('.contentLetter');
-        const textLetterP = `Chúc mừng Ngày Phụ nữ Việt Nam!
+// --- Chúc mừng ---
+let indexTextContent = 0;
+let textLetterContent = document.querySelector('.contentLetter');
+
+// Dùng \n để xuống dòng (hoặc <br> nếu innerHTML)
+const textLetterP = `Chúc mừng Ngày Phụ nữ Việt Nam!
 Chúc bạn luôn hạnh phúc, xinh đẹp và thành công trong cuộc sống.
 Bạn thật mạnh mẽ, tốt bụng và luôn truyền cảm hứng cho mọi người.
 Cảm ơn bạn vì đã mang đến tình yêu và sự ấm áp cho mọi người xung quanh.
 Mong nụ cười của bạn luôn rạng rỡ như chính trái tim bạn.
 Chúc bạn có một ngày 20/10 thật ý nghĩa và tràn đầy niềm vui! 💐💖
 <div class="signature">From T</div>`;
-        let timoutTextLetterContent;
-        function textCharLetterContent() {
-            if (indexTextContent < textLetterP.length) {
-                textLetterContent.textContent += textLetterP[indexTextContent];
-                indexTextContent++;
-                setTimeout(indexTextContent, 1);
-            }
+
+function textCharLetterContent() {
+    if (indexTextContent < textLetterP.length) {
+        // Hiển thị dần từng ký tự
+        textLetterContent.innerHTML += textLetterP[indexTextContent] === "\n" 
+            ? "<br>" 
+            : textLetterP[indexTextContent];
+        indexTextContent++;
+        setTimeout(textCharLetterContent, 30); // tốc độ hiển thị chữ
+    }
+}
             else {
                 clearInterval(timoutTextLetterContent)
 
