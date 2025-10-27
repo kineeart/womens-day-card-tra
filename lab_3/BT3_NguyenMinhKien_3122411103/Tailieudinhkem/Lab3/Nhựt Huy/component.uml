@@ -1,0 +1,28 @@
+@startuml
+title Component Diagram - Web App Library System
+
+rectangle "Web Application" {
+  
+  [Search Module] as search
+  [Borrow/Return Module] as borrow
+  [Account Management Module] as account
+
+}
+
+rectangle "External Systems" {
+  [Database] as db
+  [Authentication Service] as auth
+}
+
+' Kết nối các module với Database
+search --> db : Query book data
+borrow --> db : Update borrow/return status
+account --> db : Manage user info
+
+' Module quản lý tài khoản kết nối dịch vụ xác thực
+account --> auth : Validate login/registration
+
+' Quan hệ trong Web App
+search ..> borrow : "Check availability"
+borrow ..> account : "Verify user permission"
+@enduml
