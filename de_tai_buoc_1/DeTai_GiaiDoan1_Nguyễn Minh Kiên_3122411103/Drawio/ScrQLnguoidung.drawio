@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Trang-1" id="HMxnMxVctFAAFv83GasA">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MrKZaC3OCim2wzY66EcV-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="40" width="740" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="MrKZaC3OCim2wzY66EcV-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="93" width="710" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="MrKZaC3OCim2wzY66EcV-5" value="Quản lý người dùng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MrKZaC3OCim2wzY66EcV-6" value="Tên người dùng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="120" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrKZaC3OCim2wzY66EcV-7" value="Tài khoản" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="120" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrKZaC3OCim2wzY66EcV-8" value="Số điện thoại" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrKZaC3OCim2wzY66EcV-9" value="Chức năng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrKZaC3OCim2wzY66EcV-10" value="STT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrKZaC3OCim2wzY66EcV-11" value="In" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MrKZaC3OCim2wzY66EcV-12" value="Thêm người dùng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MrKZaC3OCim2wzY66EcV-13" value="Xem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="190" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MrKZaC3OCim2wzY66EcV-14" value="Sửa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="190" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

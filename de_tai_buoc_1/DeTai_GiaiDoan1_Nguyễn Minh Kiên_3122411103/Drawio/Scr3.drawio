@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Trang-1" id="uv1Rtog-mAL-0830CMpV">
+    <mxGraphModel dx="3005" dy="1448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LgBSXaNLpjVMjFjdi_Sr-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="70" width="750" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="LgBSXaNLpjVMjFjdi_Sr-5" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="120" width="660" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="LgBSXaNLpjVMjFjdi_Sr-6" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Đổi mật khẩu&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="100" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LgBSXaNLpjVMjFjdi_Sr-7" value="Hủy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="150" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LgBSXaNLpjVMjFjdi_Sr-8" value="Đồng ý" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LgBSXaNLpjVMjFjdi_Sr-9" value="&lt;font&gt;Mật khẩu cũ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="180" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LgBSXaNLpjVMjFjdi_Sr-10" value="&lt;font&gt;Mật khẩu mới&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="260" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LgBSXaNLpjVMjFjdi_Sr-11" value="&lt;span&gt;Nhập lại mật khẩu mới&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="340" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LgBSXaNLpjVMjFjdi_Sr-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LgBSXaNLpjVMjFjdi_Sr-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LgBSXaNLpjVMjFjdi_Sr-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="320" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
